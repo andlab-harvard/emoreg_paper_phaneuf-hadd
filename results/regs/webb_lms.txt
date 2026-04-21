@@ -1,0 +1,52 @@
+Webb Regression with Age
+------------------------
+
+Call:
+lm(formula = Webb ~ Age * FOS + Stroop + NBack, data = simp_df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-13.7392  -2.2077   0.1346   2.6488   7.5762 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)  
+(Intercept) 19.299912  10.834133   1.781    0.077 .
+Age          0.036644   0.678525   0.054    0.957  
+FOS          0.063330   0.254099   0.249    0.804  
+Stroop      -2.756099   3.434317  -0.803    0.424  
+NBack        0.079727   0.209681   0.380    0.704  
+Age:FOS      0.001373   0.015713   0.087    0.930  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.761 on 138 degrees of freedom
+  (13 observations deleted due to missingness)
+Multiple R-squared:  0.0424,	Adjusted R-squared:  0.007701 
+F-statistic: 1.222 on 5 and 138 DF,  p-value: 0.3021
+
+
+
+Webb Regression without Age
+---------------------------
+
+Call:
+lm(formula = Webb ~ FOS + Stroop + NBack, data = simp_df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-13.7454  -2.1074   0.0699   2.7082   7.7419 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 19.54610    2.17336   8.994 1.51e-15 ***
+FOS          0.09329    0.04917   1.897   0.0598 .  
+Stroop      -2.09287    3.31082  -0.632   0.5283    
+NBack        0.14583    0.19262   0.757   0.4503    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.743 on 140 degrees of freedom
+  (13 observations deleted due to missingness)
+Multiple R-squared:  0.03768,	Adjusted R-squared:  0.01706 
+F-statistic: 1.827 on 3 and 140 DF,  p-value: 0.1449
+

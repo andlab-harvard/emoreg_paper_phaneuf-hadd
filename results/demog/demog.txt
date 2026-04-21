@@ -1,0 +1,27 @@
+All Participants
+Total N: 157 
+
+AGE
+Total Children: 42 
+Total Adolescents: 73 
+Total Adults: 42 
+Mean Age: 15.49542 
+SD Age: 3.151599 
+
+GENDER
+Total Feminine: 79 
+Total Masculine: 78 
+
+RACE
+Percentage American Indian or Alaska Native: 0 
+Percentage Asian: 15.92357 
+Percentage Black or African American: 3.821656 
+Percentage Mixed Race: 10.19108 
+Percentage White: 59.87261 
+Percentage Not Captured by Options: 7.006369 
+Percentage Not Reported: 3.184713 
+
+ETHNICITY
+Percentage Hispanic: 12.73885 
+Percentage Not Hispanic: 82.80255 
+Percentage Not Reported: 4.458599 

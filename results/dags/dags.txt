@@ -1,0 +1,27 @@
+DAG with non-significant edges
+------------------------------
+     from     to     strength
+1     Age    FOS 1.173119e-02
+2     Age Stroop 8.651194e-03
+3     Age  NBack 2.834065e-07
+4     Age   Webb 4.122616e-01
+5     Age   ERQS 2.314197e-01
+6     Age   ERQR 2.292544e-01
+7     FOS   Webb 9.242243e-02
+8  Stroop   ERQS 5.603493e-01
+9   NBack   ERQR 6.951214e-01
+10    FOS   ERQS 8.451757e-01
+11 Stroop   ERQR 8.090838e-01
+12  NBack   Webb 6.970627e-01
+13    FOS   ERQR 1.954596e-01
+14 Stroop   Webb 4.247242e-01
+15  NBack   ERQS 4.407948e-01
+
+
+Refined DAG with significant edges only
+---------------------------------------
+  from     to     strength
+1  Age    FOS 1.173119e-02
+2  Age Stroop 8.651194e-03
+3  Age  NBack 2.834065e-07
+4  FOS   Webb 3.271226e-02

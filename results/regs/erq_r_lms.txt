@@ -1,0 +1,52 @@
+ERQ-R Regression with Age
+-------------------------
+
+Call:
+lm(formula = ERQR ~ Age * NBack + FOS + Stroop, data = simp_df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-10.0796  -2.8935   0.1006   2.8979   9.3839 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 14.248319   2.821209   5.050 1.37e-06 ***
+Age          0.150495   0.125839   1.196    0.234    
+NBack       -0.040588   1.091797  -0.037    0.970    
+FOS          0.070831   0.054666   1.296    0.197    
+Stroop       0.914214   3.729801   0.245    0.807    
+Age:NBack   -0.003173   0.070850  -0.045    0.964    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.067 on 138 degrees of freedom
+  (13 observations deleted due to missingness)
+Multiple R-squared:  0.029,	Adjusted R-squared:  -0.006178 
+F-statistic: 0.8244 on 5 and 138 DF,  p-value: 0.5343
+
+
+
+ERQ-R Regression without Age
+----------------------------
+
+Call:
+lm(formula = ERQR ~ NBack + FOS + Stroop, data = simp_df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-9.4808 -3.1260 -0.2601  2.7903  9.5520 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 16.09200    2.35658   6.829  2.4e-10 ***
+NBack        0.01415    0.20886   0.068    0.946    
+FOS          0.08364    0.05331   1.569    0.119    
+Stroop       1.89249    3.58993   0.527    0.599    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.059 on 140 degrees of freedom
+  (13 observations deleted due to missingness)
+Multiple R-squared:  0.0188,	Adjusted R-squared:  -0.002224 
+F-statistic: 0.8942 on 3 and 140 DF,  p-value: 0.4459
+

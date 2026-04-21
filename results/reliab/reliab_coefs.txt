@@ -1,0 +1,204 @@
+FOS full output
+---------------
+
+Reliability analysis   
+Call: psych::alpha(x = fos_items)
+
+  raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
+       0.7      0.69    0.72      0.13 2.2 0.035  2.9 0.45     0.13
+
+    95% confidence boundaries 
+         lower alpha upper
+Feldt     0.62   0.7  0.76
+Duhachek  0.63   0.7  0.76
+
+ Reliability if an item is dropped:
+        raw_alpha std.alpha G6(smc) average_r S/N alpha se  var.r med.r
+item_2       0.69      0.69    0.72      0.14 2.2    0.035 0.0116  0.14
+item_5       0.68      0.68    0.70      0.13 2.1    0.037 0.0118  0.13
+item_7       0.67      0.67    0.70      0.12 2.0    0.038 0.0119  0.12
+item_9       0.69      0.69    0.72      0.14 2.2    0.035 0.0117  0.13
+item_10      0.69      0.68    0.71      0.13 2.1    0.036 0.0124  0.13
+item_12      0.70      0.70    0.72      0.14 2.3    0.035 0.0114  0.14
+item_14      0.69      0.68    0.70      0.13 2.1    0.036 0.0113  0.13
+item_1       0.66      0.66    0.68      0.12 1.9    0.039 0.0094  0.13
+item_3       0.66      0.66    0.69      0.12 2.0    0.039 0.0109  0.13
+item_4       0.66      0.65    0.69      0.12 1.9    0.040 0.0104  0.11
+item_6       0.68      0.67    0.70      0.13 2.1    0.037 0.0117  0.13
+item_8       0.69      0.68    0.71      0.13 2.2    0.036 0.0118  0.13
+item_11      0.68      0.68    0.71      0.13 2.1    0.036 0.0113  0.13
+item_13      0.68      0.68    0.71      0.13 2.1    0.037 0.0108  0.13
+item_15      0.67      0.67    0.69      0.13 2.0    0.038 0.0100  0.13
+
+ Item statistics 
+          n raw.r std.r r.cor r.drop mean   sd
+item_2  157  0.29  0.32  0.22   0.17  3.1 0.83
+item_5  157  0.43  0.44  0.38   0.29  2.9 1.06
+item_7  157  0.49  0.51  0.45   0.37  3.1 0.95
+item_9  157  0.30  0.33  0.23   0.17  3.1 0.93
+item_10 157  0.37  0.41  0.32   0.26  3.0 0.84
+item_12 157  0.24  0.28  0.16   0.12  3.3 0.83
+item_14 157  0.38  0.40  0.34   0.25  3.1 0.99
+item_1  157  0.58  0.57  0.56   0.46  2.7 1.01
+item_3  157  0.55  0.53  0.49   0.42  2.8 1.12
+item_4  157  0.60  0.59  0.57   0.48  3.1 1.01
+item_6  157  0.47  0.45  0.39   0.32  2.6 1.15
+item_8  157  0.40  0.37  0.28   0.24  2.8 1.19
+item_11 157  0.42  0.39  0.32   0.27  2.9 1.11
+item_13 157  0.44  0.42  0.35   0.29  2.9 1.14
+item_15 157  0.53  0.49  0.46   0.38  2.6 1.18
+
+Non missing response frequency for each item
+           1    2    3    4 miss
+item_2  0.04 0.17 0.44 0.35    0
+item_5  0.08 0.35 0.13 0.44    0
+item_7  0.03 0.32 0.18 0.47    0
+item_9  0.04 0.26 0.27 0.43    0
+item_10 0.03 0.24 0.39 0.34    0
+item_12 0.03 0.17 0.32 0.48    0
+item_14 0.06 0.26 0.22 0.45    0
+item_1  0.20 0.11 0.49 0.19    0
+item_3  0.22 0.04 0.40 0.33    0
+item_4  0.15 0.03 0.43 0.40    0
+item_6  0.29 0.09 0.37 0.25    0
+item_8  0.27 0.03 0.36 0.34    0
+item_11 0.21 0.05 0.38 0.36    0
+item_13 0.22 0.05 0.36 0.36    0
+item_15 0.29 0.05 0.37 0.29    0
+
+FOS alpha
+---------
+ raw_alpha
+     0.695
+
+Webb full output
+----------------
+
+Reliability analysis   
+Call: psych::alpha(x = webb_items)
+
+  raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
+      0.78       0.8    0.79       0.4 3.9 0.027  3.9 0.63     0.38
+
+    95% confidence boundaries 
+         lower alpha upper
+Feldt     0.73  0.78  0.83
+Duhachek  0.73  0.78  0.84
+
+ Reliability if an item is dropped:
+       raw_alpha std.alpha G6(smc) average_r S/N alpha se var.r med.r
+item_1      0.74      0.76    0.75      0.38 3.1    0.032 0.018  0.32
+item_2      0.76      0.77    0.76      0.40 3.4    0.030 0.012  0.36
+item_3      0.73      0.75    0.73      0.37 2.9    0.033 0.012  0.36
+item_4      0.75      0.76    0.74      0.38 3.1    0.032 0.013  0.36
+item_5      0.76      0.78    0.75      0.41 3.5    0.031 0.013  0.45
+item_6      0.77      0.79    0.76      0.42 3.7    0.029 0.011  0.45
+
+ Item statistics 
+         n raw.r std.r r.cor r.drop mean   sd
+item_1 156  0.72  0.74  0.66   0.58  4.0 0.82
+item_2 156  0.63  0.69  0.60   0.50  4.1 0.67
+item_3 156  0.74  0.77  0.72   0.61  4.2 0.83
+item_4 156  0.71  0.73  0.66   0.56  4.2 0.84
+item_5 156  0.71  0.66  0.57   0.52  3.5 1.06
+item_6 156  0.70  0.64  0.55   0.50  3.7 1.12
+
+Non missing response frequency for each item
+          1    2    3    4    5 miss
+item_1 0.01 0.03 0.18 0.51 0.27    0
+item_2 0.00 0.03 0.09 0.61 0.28    0
+item_3 0.01 0.03 0.12 0.40 0.45    0
+item_4 0.01 0.03 0.15 0.42 0.40    0
+item_5 0.03 0.16 0.29 0.33 0.18    0
+item_6 0.03 0.15 0.24 0.29 0.29    0
+
+Webb alpha
+----------
+ raw_alpha
+     0.785
+
+ERQ-S full output
+-----------------
+
+Reliability analysis   
+Call: psych::alpha(x = erq_s_items)
+
+  raw_alpha std.alpha G6(smc) average_r S/N   ase mean  sd median_r
+      0.75      0.75     0.7      0.42 2.9 0.033  2.8 0.7      0.4
+
+    95% confidence boundaries 
+         lower alpha upper
+Feldt     0.67  0.75  0.81
+Duhachek  0.68  0.75  0.81
+
+ Reliability if an item is dropped:
+       raw_alpha std.alpha G6(smc) average_r S/N alpha se   var.r med.r
+item_2      0.70      0.70    0.62      0.44 2.3    0.041 6.8e-03  0.43
+item_4      0.72      0.72    0.64      0.46 2.6    0.039 6.0e-03  0.49
+item_6      0.63      0.64    0.54      0.37 1.8    0.050 9.4e-05  0.37
+item_9      0.69      0.69    0.61      0.43 2.3    0.042 3.2e-03  0.43
+
+ Item statistics 
+         n raw.r std.r r.cor r.drop mean   sd
+item_2 157  0.75  0.74  0.60   0.52  3.3 0.97
+item_4 157  0.69  0.72  0.56   0.48  1.9 0.80
+item_6 157  0.81  0.81  0.73   0.63  2.8 0.96
+item_9 157  0.76  0.75  0.62   0.53  3.1 0.99
+
+Non missing response frequency for each item
+          1    2    3    4    5 miss
+item_2 0.02 0.18 0.38 0.30 0.12    0
+item_4 0.36 0.44 0.17 0.03 0.00    0
+item_6 0.07 0.34 0.35 0.20 0.03    0
+item_9 0.04 0.26 0.35 0.28 0.06    0
+
+ERQ-S alpha
+-----------
+ raw_alpha
+     0.746
+
+ERQ-R full output
+-----------------
+
+Reliability analysis   
+Call: psych::alpha(x = erq_r_items)
+
+  raw_alpha std.alpha G6(smc) average_r S/N   ase mean   sd median_r
+      0.76      0.76    0.76      0.34 3.1 0.029  3.3 0.67     0.32
+
+    95% confidence boundaries 
+         lower alpha upper
+Feldt      0.7  0.76  0.81
+Duhachek   0.7  0.76  0.82
+
+ Reliability if an item is dropped:
+        raw_alpha std.alpha G6(smc) average_r S/N alpha se  var.r med.r
+item_1       0.74      0.74    0.72      0.36 2.8    0.032 0.0192  0.34
+item_3       0.76      0.75    0.73      0.38 3.1    0.030 0.0162  0.38
+item_5       0.74      0.74    0.73      0.36 2.8    0.033 0.0183  0.34
+item_7       0.69      0.69    0.66      0.31 2.2    0.039 0.0087  0.28
+item_8       0.69      0.69    0.67      0.31 2.2    0.039 0.0096  0.29
+item_10      0.72      0.72    0.71      0.34 2.6    0.035 0.0191  0.33
+
+ Item statistics 
+          n raw.r std.r r.cor r.drop mean   sd
+item_1  157  0.61  0.63  0.52   0.44  3.4 0.91
+item_3  157  0.57  0.58  0.44   0.37  3.5 0.96
+item_5  157  0.63  0.63  0.51   0.45  3.3 1.00
+item_7  157  0.77  0.76  0.73   0.62  3.2 1.03
+item_8  157  0.77  0.76  0.72   0.62  3.1 1.03
+item_10 157  0.69  0.68  0.59   0.52  3.2 1.02
+
+Non missing response frequency for each item
+           1    2    3    4    5 miss
+item_1  0.03 0.13 0.32 0.45 0.08    0
+item_3  0.02 0.15 0.25 0.45 0.12    0
+item_5  0.02 0.24 0.31 0.32 0.11    0
+item_7  0.05 0.23 0.30 0.34 0.08    0
+item_8  0.07 0.21 0.35 0.30 0.07    0
+item_10 0.05 0.20 0.34 0.32 0.08    0
+
+ERQ-R alpha
+-----------
+ raw_alpha
+      0.76

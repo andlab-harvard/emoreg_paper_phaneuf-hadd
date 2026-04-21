@@ -1,0 +1,21 @@
+rs
+--
+               Age Prospection Inhibition Work. Mem. Sit. Select. Suppression Reappraisal
+Age          1.000       0.204      0.208      0.412        0.128       0.108       0.129
+Prospection  0.204       1.000     -0.157      0.153        0.220      -0.038       0.129
+Inhibition   0.208      -0.157      1.000      0.100       -0.046       0.073       0.027
+Work. Mem.   0.412       0.153      0.100      1.000        0.083      -0.022       0.031
+Sit. Select. 0.128       0.220     -0.046      0.083        1.000      -0.199       0.406
+Suppression  0.108      -0.038      0.073     -0.022       -0.199       1.000      -0.051
+Reappraisal  0.129       0.129      0.027      0.031        0.406      -0.051       1.000
+
+p-values
+--------
+               Age Prospection Inhibition Work. Mem. Sit. Select. Suppression Reappraisal
+Age          0.000       0.045      0.045      0.000        0.237       0.311       0.237
+Prospection  0.045       0.000      0.150      0.174        0.041       0.744       0.237
+Inhibition   0.045       0.150      0.000      0.377        0.706       0.504       0.782
+Work. Mem.   0.000       0.174      0.377      0.000        0.480       0.798       0.782
+Sit. Select. 0.237       0.041      0.706      0.480        0.000       0.045       0.000
+Suppression  0.311       0.744      0.504      0.798        0.045       0.000       0.706
+Reappraisal  0.237       0.237      0.782      0.782        0.000       0.706       0.000

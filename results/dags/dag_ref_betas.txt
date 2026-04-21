@@ -1,0 +1,59 @@
+
+  Bayesian network parameters
+
+  Parameters of node Age (Gaussian distribution)
+
+Conditional density: Age
+Coefficients:
+(Intercept)  
+   15.74916  
+Standard deviation of the residuals: 3.095474 
+
+  Parameters of node FOS (Gaussian distribution)
+
+Conditional density: FOS | Age
+Coefficients:
+(Intercept)          Age  
+ 37.1618926    0.4412437  
+Standard deviation of the residuals: 6.397318 
+
+  Parameters of node Stroop (Gaussian distribution)
+
+Conditional density: Stroop | Age
+Coefficients:
+ (Intercept)           Age  
+-0.152725621   0.006773121  
+Standard deviation of the residuals: 0.09416583 
+
+  Parameters of node NBack (Gaussian distribution)
+
+Conditional density: NBack | Age
+Coefficients:
+(Intercept)          Age  
+ -3.4792344    0.2207072  
+Standard deviation of the residuals: 1.515134 
+
+  Parameters of node Webb (Gaussian distribution)
+
+Conditional density: Webb | FOS
+Coefficients:
+(Intercept)          FOS  
+ 19.2074620    0.1031369  
+Standard deviation of the residuals: 3.728306 
+
+  Parameters of node ERQS (Gaussian distribution)
+
+Conditional density: ERQS
+Coefficients:
+(Intercept)  
+   11.06944  
+Standard deviation of the residuals: 2.861983 
+
+  Parameters of node ERQR (Gaussian distribution)
+
+Conditional density: ERQR
+Coefficients:
+(Intercept)  
+   19.69444  
+Standard deviation of the residuals: 4.054313 
+
